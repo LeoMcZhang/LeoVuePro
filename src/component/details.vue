@@ -1,10 +1,11 @@
 <template>
 
 	<div>
-		home
+		details.vue
 	</div>
+	
 </template>
-<style type="text/css" scoped>
+<style scoped>
 	div{
 		height: 1000px;
 	}

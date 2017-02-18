@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import ElementUI from 'element-ui'
+
 // import 'element-ui/lib/theme-default/index.css'
 
 
@@ -9,10 +10,11 @@ import VueConfig from './routerConfig.js'
 
 
 Vue.use(VueRouter);
-Vue.use(ElementUI)
-
+Vue.use(ElementUI);
 
 const router = new VueRouter(VueConfig)
+
+
 
 
 new Vue({

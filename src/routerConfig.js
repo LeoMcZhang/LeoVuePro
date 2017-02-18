@@ -1,11 +1,11 @@
 
 import Home from './component/home.vue'
-import news from './component/news.vue'
+import Details from './component/details.vue'
 
 export default{
 	routes:[
 		{path:'/home', component:Home},
-		{path:'/news', component:news},
+		{path:'/details', component:Details},
 		{path:'*', redirect:'/home'}
 	]
 }
